@@ -46,7 +46,7 @@ public class signup : MonoBehaviour {
              }
 
              Firebase.Auth.FirebaseUser user = task.Result;
-             Debug.LogFormat("SignUp succesfully with = {0}({1})", user.DisplayName, user.UserId);
+             Debug.LogFormat("SignUp succesfully with = {0}", user.DisplayName, user);
          });
 
     }
